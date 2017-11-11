@@ -1,3 +1,2 @@
-# Boilerplate Meteor Project
+# Uploader2 
 
-This includes a basic react and auth setup.
