@@ -31,7 +31,7 @@ export default class Signup extends React.Component {
     return (
       <div className="boxed-view">
         <div className="boxed-view__box">
-          <h1>Join</h1>
+          <h2>medipixel CAD Signup</h2>
 
           {this.state.error ? <p>{this.state.error}</p> : undefined}
 

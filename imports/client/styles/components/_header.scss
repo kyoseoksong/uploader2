@@ -1,16 +1,33 @@
 .header {
   background: $header-bg;
   color: $header-color;
+  // height: 5rem;
 }
 
 .header__content {
   display: flex;
+  flex-shrink: 0;
   justify-content: space-between;
-  max-width: $site-max-width;
+  //max-width: $site-max-width;
+  max-width: 80em;
+  width: 100%;
   margin: 0 auto;
   padding: $space;
 }
 
-.header__title {
-  margin: 0;
+.header__logo {
+  flex-grow: 1;
+  margin: 0 0 0 $space*3;
+  max-height: 100%;
+  align-self: flex-start;
+}
+
+.header__logo img {
+  float: left;
+  padding-right: $space;
+}
+
+.header__logo h2 {
+  padding-left: $space;
+  position: relative;
 }
